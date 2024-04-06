@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(7, 7, 7);
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.xtrafondos.com/wallpapers/muelle-al-atardecer-2188.jpg');
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+header {
+    background-color: purple;
+    padding: 1rem;
+    border-radius: 100px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+input, select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: purple;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+.event-details {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.user-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(206, 10, 10, 0.1);
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.user-data h3 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.user-data p {
+    font-size: 0.9rem;
+    color: #333;
+}

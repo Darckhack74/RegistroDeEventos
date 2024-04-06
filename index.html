@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/DiseñoR.css">
+    <title>Registro de eventos</title>
+</head>
+<body>
+    <header>
+        <h1>Registro de Eventos</h1>
+    </header>
+    <main>
+        <section class="form-container">
+            <form id="registration-form">
+                <fieldset>
+                    <legend>Registro de Informacion</legend>
+                    <label for="fullname">Nombre Completo:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Numero de Celular:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="ticket-type">Tipo de Entrada:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="general">General</option>
+                        <option value="vip">VIP</option>
+                        <option value="platinum">Platinum</option>
+                    </select>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="event-details">
+            <div class="grid-container">
+                <div>
+                    <h2>Carrera de la Formula 1</h2>
+                    <p>Fecha: Febrero 12, 2023</p>
+                    <p>Localizacion: CDMX, Hermanos Rodriguez Hipodromo</p>
+                    <p>Descripcion: Unete a nosotros para una experiencia inolvidable!</p>
+                </div>
+            </div>
+        </section>
+        <section class="user-data-container">
+            <h2>Detalles de compra</h2>
+            <div class="user-data"></div>
+        </section>
+    </main>
+    <script src="./js/DiseñoR.js"></script>
+</body>
+</html>
